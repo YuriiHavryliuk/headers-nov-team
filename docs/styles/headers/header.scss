@@ -1,0 +1,20 @@
+// global styles and imports for all the footers
+
+
+@import "headers/first";
+@import "headers/second";
+@import "headers/breakpoints-second";
+@import "headers/third";
+@import "headers/fourth";
+@import "headers/fifth";
+@import "headers/seventh";
+@import "headers/eighth";
+
+.header {
+	margin-bottom: 50px;
+	font-family: $font-family;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

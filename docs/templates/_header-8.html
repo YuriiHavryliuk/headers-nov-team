@@ -1,0 +1,55 @@
+
+<div class="container">
+    <nav class="nav">
+        <div class="wrapper" id="h_8_wrapper">
+            <a href="#" class="nav__item nav__item--logo"><img src="img/ui-logo.svg" alt="UI logo" width="45" height="45"></a>
+            <span class="nav__item icon-menu mobile-menu-close" onclick="hideMobile_8()"></span>
+            <a href="#" class="nav__item">Home</a>
+            <a href="#" class="nav__item">Portfolio</a>
+            <a href="#" class="nav__item">Products</a>
+            <a href="#" class="nav__item">Services</a>
+            <a href="#" class="nav__item">About Us</a>
+            <a href="#" class="nav__item">Contact</a>
+        </div>
+        <span class="icon-menu mobile-button" onclick="showMobile_8()"></span>
+        <form class="nav__search-form">
+            <div class="form-group">
+                <i class="icon-search form-group__icon"></i>
+                <input type="text" name="search_query" class="text-input" placeholder="Search" required>
+            </div>
+        </form>
+    </nav>
+    <div class="centered heading">We make products</div>
+    <div class="centered action-btn">
+        <button class="button">Order</button>
+    </div>
+    <div class="services">
+        <div class="service__item">
+            <h3 class="service__title"><i class="icon-pencil icon"></i>Prototype</h3>
+            <p class="service__text">
+                    This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.
+            </p>
+        </div>
+        <div class="service__item">
+            <h3 class="service__title"><i class="icon-brush icon"></i>Design</h3>
+            <p class="service__text">
+                    It was some time before he obtained any answer, and the reply, when made, was unpropitious.
+            </p>
+        </div>
+        <div class="service__item">
+            <h3 class="service__title"><i class="icon-keyboard icon"></i>Coding</h3>
+            <p class="service__text">
+                    Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+    function showMobile_8(){
+        let a = document.querySelector(".header__eighth .nav #h_8_wrapper");
+        a.classList.add("wrapper--hidden");
+    };
+    function hideMobile_8(){
+        document.querySelector(".header__eighth .nav #h_8_wrapper").classList.remove("wrapper--hidden");
+    }
+</script>

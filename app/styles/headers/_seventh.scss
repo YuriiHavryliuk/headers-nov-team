@@ -1,0 +1,86 @@
+$text__color: rgb(234, 246, 255);
+
+%item__number {
+    font-size: 16px;
+}
+
+%text {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.header__seventh {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/theventh__header--background.png");
+    background-size: cover;
+    font-family: $font-face;
+    font-size: 14px;
+    color: $color--white;
+}
+
+ul li {
+    list-style: none; 
+    display: inline-block;
+    padding-right: 60px;
+}
+
+.nav__link {
+    text-decoration: none; 
+    display: inline-block;
+    color: $color--grey_lighten;
+}
+
+.text__theme {
+    font-size: 50px;
+    color: $color--grey_lighten;
+    @extend %text;
+}
+
+.text__advantages {
+    font-size: 18px;
+    color: $color--grey_lighten;
+    @extend %text;
+}
+
+.numbers {
+    margin: 80px;
+    font-weight: bold;
+    color: $color--grey;
+}
+
+.UIElements {
+    @extend %item__number;
+    left: 17%;
+}
+
+.thousand {
+    font-size: 50px;
+    color: rgb(36, 170, 152);
+}
+
+.BasicTemplates {
+    @extend %item__number;
+    left: 44%;
+}
+
+.twohundred {
+    font-size: 50px;
+    color: rgb(101, 171, 208);
+}
+
+.UniqueIcons {
+    @extend %item__number;
+    left: 71%;
+}
+
+.hundred {
+    font-size: 50px;
+    color: rgb(217, 194, 108);
+}
+
+.down-button {
+    text-align: center;
+}
